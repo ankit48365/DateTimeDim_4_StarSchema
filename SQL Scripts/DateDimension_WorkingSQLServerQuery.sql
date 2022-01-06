@@ -1,3 +1,9 @@
+
+
+--Choose the database Test_DW 
+USE [Test_DW] 
+GO 
+
 BEGIN TRY
 	DROP TABLE [dbo].[DimDate]
 END TRY
@@ -53,8 +59,8 @@ GO
 --Specify Start Date and End date here
 --Value of Start Date Must be Less than Your End Date 
 
-DECLARE @StartDate DATETIME = '01/01/2019' --Starting value of Date Range
-DECLARE @EndDate DATETIME = '01/01/2024' --End Value of Date Range
+DECLARE @StartDate DATETIME = '01/01/2018' --Starting value of Date Range
+DECLARE @EndDate DATETIME = '01/01/2025' --End Value of Date Range
 
 --Temporary Variables To Hold the Values During Processing of Each Date of Year
 DECLARE
