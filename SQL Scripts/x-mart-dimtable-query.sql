@@ -1,7 +1,7 @@
 /* https://www.codeproject.com/Articles/652108/Create-First-Data-WareHouse */
 
-Create database Sales_DW
-Go
+--Create database Sales_DW
+--Go
 
 Use Sales_DW
 Go

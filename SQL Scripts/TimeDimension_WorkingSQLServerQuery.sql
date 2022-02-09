@@ -3,12 +3,13 @@
 /*Created by Mubin M. Shaikh */ 
 
 --Create Test Database named as Test_DW  -- commented out this part, as it was previously done / check, do, if done from scratch
-Create Database [Test_DW] 
+--Create Database [Test_DW] 
+Create Database [Sales_DW]
 GO 
 
 
 --Choose the database Test_DW 
-USE [Test_DW] 
+USE [Sales_DW]
 GO 
 /****** Create Time Dimension Table In Test_DW ******/ 
 /****** Create Table [dbo].[DimTime] ******/ 

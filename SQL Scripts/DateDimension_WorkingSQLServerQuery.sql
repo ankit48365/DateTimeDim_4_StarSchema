@@ -1,7 +1,8 @@
 
 
 --Choose the database Test_DW 
-USE [Test_DW] 
+--USE [Test_DW] 
+USE [Sales_DW]
 GO 
 
 BEGIN TRY

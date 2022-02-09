@@ -7,9 +7,9 @@
 /*Add Fiscal Calendar columns into table DimDate*/
 
 --Choose the database Test_DW 
-USE [Test_DW] 
+--USE [Test_DW] 
+USE [Sales_DW]
 GO 
-
 
 ALTER TABLE [dbo].[DimDate] ADD
 	[FiscalDayOfYear] VARCHAR(3),
